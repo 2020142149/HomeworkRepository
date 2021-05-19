@@ -1,0 +1,73 @@
+[
+{
+    "name": "ITEM1",
+    "type": "TYPE1",
+    "price": 100,
+    "color": "blue",
+    "img": "img/1.jpg"
+},
+
+{
+    "name": "ITEM2",
+    "type": "TYPE2",
+    "price": 200,
+    "color": "blue",
+    "img": "img/2.jpg"
+},
+
+{
+    "name": "ITEM3",
+    "type": "TYPE3",
+    "price": 200,
+    "color": "red",
+    "img": "img/3.jpg"
+},
+
+{
+    "name": "ITEM4",
+    "type": "TYPE4",
+    "price": 400,
+    "color": "red",
+    "img": "img/4.jpg"
+},
+
+{
+    "name": "ITEM5",
+    "type": "TYPE5",
+    "price": 400,
+    "color": "black",
+    "img": "img/5.jpg"
+},
+
+{
+    "name": "ITEM6",
+    "type": "TYPE6",
+    "price": 400,
+    "color": "black",
+    "img": "img/6.jpg"
+},
+
+{
+    "name": "ITEM7",
+    "type": "TYPE7",
+    "price": 700,
+    "color": "green",
+    "img": "img/7.jpg"
+},
+
+{
+    "name": "ITEM8",
+    "type": "TYPE8",
+    "price": 900,
+    "color": "green",
+    "img": "img/8.jpg"
+},
+
+{
+    "name": "ITEM9",
+    "type": "TYPE9",
+    "price": 900,
+    "color": "green",
+    "img": "img/9.jpg"
+}
+]
