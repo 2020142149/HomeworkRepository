@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+    <meta charset="utf-8">
+    <title>E-SHOP Main Page</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      fetch("product.json")
+      .then(res => res.json())
+      .then(data => {
+          for(i in data) {
+            var newDiv = document.createElement("div");
+            var newIMG = document.createElement("img");
+            var newA = document.createElement("a");
+            var newINFO = document.createElement("span");
+            newDiv.setAttribute("class", "image");
+            newIMG.setAttribute("src", data[i].img);
+            newIMG.setAttribute("alt", data[i].name);
+            newIMG.setAttribute("width", 300);
+            newA.innerHTML = "[Info.]";
+            newA.setAttribute("class", "data");
+            newINFO.setAttribute("class", "info");
+            newINFO.innerHTML =
+            "name : " + data[i].name + '\n' +
+            "price : " + data[i].price + '\n' +
+            "color : " + data[i].color + '\n';
+
+
+
+            var content = document.querySelector("article");
+            newA.append(newINFO);
+            newDiv.append(newA);
+            newDiv.append(document.createElement("br"));
+            newDiv.append(newIMG);
+
+
+            content.append(newDiv);
+
+          }
+        })
+
+
+
+    </script>
+
+
+
+    <h1>
+      <div>
+      E-Shop For Person
+      <div>
+    </h1>
+    <div id="menu">
+      <a href="#" id="selected">Main Page</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </div>
+
+
+    <hr/>
+
+
+<article>
+</article>
+
+<br><br><br>
+
+
+<div id="title">
+  <h2>웹사이트 소개</h2>
+</div>
+
+<hr/ id="content-line">
+
+<div id="flexbox">
+  이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다. 이 웹사이트는 대단하진 않지만 엄청난 사이트입니다.
+</div>
+
+
+
+
+
+    <hr/>
+
+  </body>
+</html>
